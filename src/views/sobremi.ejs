@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <%- include('partials/head')%>
+</head>
+<body>
+    <%- include('partials/navigation')%>
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="contenido fila">
+            <div class="contenedor-img">
+                <img src="img/gris.png" alt="">
+            </div>
+            
+            <div class="info">
+                <div class="opciones">
+                    <button class="selected" id="btn-info-sobre-mi">Sobre Mí</button>
+                    <button id="btn-skills">Skills</button>
+                </div>
+                <div class="info-opcion" id="info-sobre-mi">
+                    <h2>Hola! Soy <span class="color">Griselda </span></h2>
+                    <p>Soy un estudiante de Ingeniería de Sistemas enfocada en el desarrollo de software.</p>
+                    <p>Autodidacta, orientado a resolver problemas complejos y siempre dispuesto a aprender. Disfruto trabajar en equipo y aportar con una actitud colaborativa y proactiva.</p>
+                </div>
+
+    </section>
+    <%- include('partials/footer')%>
+    <script src="skill.js"></script>
+</body>
+</html>
